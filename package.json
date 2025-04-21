@@ -6,9 +6,11 @@
         "start": "ts-node src/index.ts",
         "prettify": "prettier --write .",
         "lintify": "npx eslint .",
-        "fix": "npm run prettify && npm run lintify"
+        "fix": "npm run prettify && npm run lintify",
+        "test": "jest"
     },
     "devDependencies": {
+        "@types/jest": "^29.5.14",
         "@types/node": "^20.12.10",
         "@typescript-eslint/eslint-plugin": "^8.30.1",
         "@typescript-eslint/parser": "^8.30.1",
@@ -18,8 +20,10 @@
         "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-prettier": "^5.2.6",
         "eslint-plugin-unused-imports": "^4.1.4",
+        "jest": "^29.7.0",
         "prettier": "^3.4.2",
         "pretty-quick": "^4.0.0",
+        "ts-jest": "^29.3.2",
         "ts-node": "^10.9.2",
         "typescript": "^5.4.5"
     }
