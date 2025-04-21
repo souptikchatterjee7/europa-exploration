@@ -49,6 +49,10 @@ Lint and format (auto-fix):
 
 npm run fix
 
+Run Test Cases:
+
+npm run test
+
 🛰️ Running the Program
 
 ✅ Input

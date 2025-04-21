@@ -27,7 +27,7 @@ export function executeInstructions(
                     robot.x = prevX;
                     robot.y = prevY;
                     console.warn(
-                        `Robot can't move out of bounds (${robot.x}, ${robot.y})`
+                        `Robot can't move out of bounds (${maxX}, ${maxY})`
                     );
                 }
                 break;
