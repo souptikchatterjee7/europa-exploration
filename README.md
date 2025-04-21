@@ -2,32 +2,19 @@
 
 This project provides a navigation solution built in Node.js with TypeScript, enabling NASA robots to explore the surface of Jupiter's moon, Europa. It simulates robot navigation based on provided coordinates and commands.
 
-📦 Project Structure
-
-europa-exploration/
-├── src/
-│ ├── models/
-│ │ └── Robot.ts # Robot model logic
-│ ├── utils/
-│ │ └── navigation.ts # Navigation commands execution
-│ └── index.ts # Main execution entry point
-├── input.txt # Test input commands
-├── package.json # Project dependencies and scripts
-├── tsconfig.json # TypeScript configuration
-├── eslint.config.js # ESLint configuration
-└── README.md # Project documentation
-
 🚀 Getting Started
 
 ✅ Prerequisites
+
 Node.js (v18.x or newer recommended)
 
-npm or yarn (npm included with Node.js)
+npm (npm included with Node.js)
 
 ✅ Installation
+
 Clone this repository and install dependencies:
 
-git clone <your-repository-url>
+git clone https://github.com/souptikchatterjee7/europa-exploration
 cd europa-exploration
 npm install
 
@@ -56,6 +43,7 @@ npm run test
 🛰️ Running the Program
 
 ✅ Input
+
 Modify the input.txt file located in the project's root directory:
 
 5 5
@@ -98,7 +86,9 @@ Inputs are correctly formatted as specified.
 Commands provided will be valid (L, R, M).
 
 🧑‍🚀 Author
+
 Souptik Chatterjee
 
 📃 License
+
 This project is open-source and available under the MIT License.
