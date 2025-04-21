@@ -1,9 +1,9 @@
 {
     "name": "europa-exploration",
     "version": "1.0.0",
-    "main": "dist/index.js",
+    "main": "dist/app.js",
     "scripts": {
-        "start": "ts-node src/index.ts",
+        "start": "ts-node src/app.ts",
         "prettify": "prettier --write .",
         "lintify": "npx eslint .",
         "fix": "npm run prettify && npm run lintify",
